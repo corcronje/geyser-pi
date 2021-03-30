@@ -2,9 +2,18 @@
 
 A geyser utility management system based upon the Raspberry Pi.
 
-## Details
+## Introduction
 
 Reduce electrical power consumption through setting a predefined heating schedule for an electrical geyser, additionally cycling pre-heated water from a solar geyser into the system.
+
+## Details
+
+A Raspberry Pi single board computer (SBC) is to be employed for monitoring two DS18B20 temperature probes, one installed in an electrically heated residential geyser, the other in a solar geyser. The system’s primary function is to reduce electrical power consumption through, maintaining a regulated water temperature in the electrical geyser as per a predefined temperature schedule, and by means of toggling electrical power to the geyser’s element through a relay. 
+
+The system monitor the temperature difference between the solar geyser and the electrical geyser, and circulate warmer solar heated water into the electrical geyser trough activating an electrical pump, thus potentially reducing electrical power consumption even further.
+
+The temperature values and cumulative element and pump active times are logged and web interface used for displaying the data in user friendly charts. The web interface further allows for all configurable parameters and the temperature schedule to be set by the user.
+
 
 ![System Diagram](https://github.com/CorCronje/GeyserPi/blob/main/Interface/system.png?raw=true)
 
