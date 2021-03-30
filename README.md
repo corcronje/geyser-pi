@@ -12,7 +12,7 @@ A Raspberry Pi single board computer (SBC) is to be employed for monitoring two 
 
 The system monitor the temperature difference between the solar geyser and the electrical geyser, and circulate warmer solar heated water into the electrical geyser trough activating an electrical pump, thus potentially reducing electrical power consumption even further.
 
-The temperature values and cumulative element and pump active times are logged and web interface used for displaying the data in user friendly charts. The web interface further allows for all configurable parameters and the temperature schedule to be set by the user.
+The temperature values and cumulative element and pump active times are logged and a web interface used for displaying the data in user friendly charts. The web interface further allows for all configurable parameters and the temperature schedule to be set by the user.
 
 
 ![System Diagram](https://github.com/CorCronje/GeyserPi/blob/main/Interface/system.png?raw=true)
